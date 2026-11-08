@@ -1,5 +1,5 @@
 ---
-permalink: /structural-review/
+permalink: /revised/
 ---
 # Reusable structural-review rule
 
