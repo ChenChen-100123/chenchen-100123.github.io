@@ -1,3 +1,6 @@
+---
+permalink: /structural-review/
+---
 # Reusable structural-review rule
 
 ## Standing rule
