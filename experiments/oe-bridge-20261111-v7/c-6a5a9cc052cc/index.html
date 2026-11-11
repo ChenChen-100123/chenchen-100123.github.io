@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Structural review case</title></head><body><main id="experiment-payload" class="markdown-body" data-sha256="6a5a9cc052cce8f65f2ae6e18b0dfb09218bb109e5a0a2e5c2d3a774542d743c"><p>Experiment case c-6a5a9cc052cc; content SHA-256 6a5a9cc052cce8f65f2ae6e18b0dfb09218bb109e5a0a2e5c2d3a774542d743c</p><pre style="white-space:pre-wrap"># Structural-Review Rule: Checking That a Component Was Actually Calculated
+
+This page states one reusable rule for future structural-change and load-sensitive decisions. It then applies that rule to a well-documented bridge failure and to a set of clearly labeled simulated records. The page is context; the short memory entry at the end is what should be carried forward.
+
+## The rule
+
+When reviewing a structural change or any load-sensitive decision, work through four steps in order.
+
+1. **Identify the material dependencies.** List the components and assumptions on which the conclusion actually depends. Treat as material anything that, if wrong or missing, could change the answer.
+2. **Verify coverage.** For each safety-critical component on that list, confirm that it was included in the relevant capacity or design calculation, within that calculation&#x27;s stated scope and assumptions. A completed review or a checked-off procedure does not by itself establish that a given component was covered.
+3. **Investigate gaps.** If a critical assumption is unsupported, inconsistent with the records, or outside the scope of the existing assessment, consult the relevant design records and obtain an independent technical assessment where needed.
+4. **Stop at sufficiency.** End the investigation once the material assumptions are adequately supported for the decision and no unresolved evidence gap could reasonably change the conclusion. Continuing past that point adds cost without adding confidence.
+
+The rule is a review method. It does not replace case-specific engineering analysis or independent professional judgment.
+
+## Why the rule matters: the I-35W case
+
+Engineering procedures provide a foundation for technical decisions, but their conclusions rest on assumptions about design, loading, and component capacity. On August 1, 2007, the I-35W bridge over the Mississippi River in Minneapolis collapsed. According to the National Transportation Safety Board (NTSB), the investigation identified inadequate gusset-plate capacity arising from a design error, together with deficiencies in the relevant calculations and design review. Later changes to the bridge and the construction loads present at the time also formed part of the circumstances.
+
+Source: [NTSB I-35W investigation](https://www.ntsb.gov/investigations/Pages/HWY07MH024.aspx).
+
+The case marks the difference between confirming that a familiar review process was performed and confirming that a particular safety-critical component was actually covered by the underlying calculation. That distinction is the reason for step 2.
+
+## Simulated supporting records (R-17)
+
+The records below are **simulated** for this exercise. They are illustrations only and do not describe the real I-35W investigation or any real project.
+
+- **R-17a — Review checklist (simulated).** A generic design-review checklist was marked complete, but its scope statement did not name gusset-plate capacity among the items checked.
+- **R-17b — Calculation note (simulated).** A capacity calculation covered primary members but left the gusset-plate connection outside its stated assumptions.
+- **R-17c — Follow-up query log (simulated).** A reviewer asked for the original connection design records; the reply was a summary that did not resolve whether the connection had been covered.
+
+Read in order, the three simulated records trace the rule: the material component is named (step 1); the completed checklist is tested against whether the calculation actually covered that component (step 2); the design records are pursued when coverage stays unclear (step 3); and the review stops only when no unresolved gap could change the conclusion (step 4).
+
+## Concise memory entry
+
+Source: NTSB I-35W bridge case — 2007 Minneapolis collapse; inadequate gusset-plate capacity from a design error, with deficient calculations and design review, alongside later bridge changes and construction loads. Rule for future structural-change or load-sensitive reviews: identify the material components and assumptions; verify that safety-critical components were included in the underlying capacity/design calculations rather than merely in a completed review; when a critical assumption is unsupported or out of scope, consult the design records and seek independent technical assessment; stop once the material assumptions are adequately supported and no unresolved evidence gap could change the decision.</pre></main></body></html>
